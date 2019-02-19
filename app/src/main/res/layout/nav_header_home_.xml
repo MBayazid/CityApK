@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/h1_d_edu_nav"
+    android:gravity="bottom"
+    android:orientation="vertical"
+
+    android:scaleY=".9"
+  android:paddingLeft="5dp"
+    android:paddingEnd="2dp"
+    android:paddingRight="0dp">
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="52dp"
+        android:layout_gravity="start"
+        android:background="@drawable/card_background_no_body_color"
+        android:contentDescription="@string/nav_header_desc"
+        android:src="@drawable/cpik2003" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="serif"
+
+        android:gravity="left"
+        android:text="City Polytechnic Institute Khulna"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/com_facebook_button_background_color"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        tools:text="" />
+
+</LinearLayout>

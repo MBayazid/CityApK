@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">City App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_google__maps">Map</string>
+
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="title_activity_tab_action_">Tab_action_Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="my_google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyATZmR4eyGx3wbakuvEahOMcOhCeTtTMNc</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_passwordless">Passwordless Authentication</string>
+    <string name="desc_passwordless">Use only an email to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="next">View Profile</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="facebook_app_id">Facbook</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+
+    <string name="menu_logout">Log out</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="heading_recent">Recent</string>
+    <string name="heading_my_posts">My Posts</string>
+    <string name="heading_my_top_posts">My Top Posts</string>
+    <string name="my_profile">My Profile</string>
+    <string name="user_name">User Name :</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--reminder activity -->
+    <string name="sett_reminder_label" />
+    <string name="sett_reminder_header" />
+    <string name="sett_reminder_desc" />
+    <string name="sett_reminder_time_label" />
+    <string name="sett_reminder_time_content" />
+    <string name="title_activity_bteb__web_view">Bteb_WebView</string>
+    <string name="title_activity_bteb__notification__scrolling">
+        BTEB_Notification_ScrollingActivity
+    </string>
+    <string name="large_text">    </string>
+    <string name="news_feed">  News Feed  </string>
+    <string name="quotedesc">Welcome! Where should we deliver to?</string>
+    <!-- All Teacher Number -->
+    <string name="Monira_Yasmin1">01550021251</string>
+    <string name="Monira_Yasmin2">01911217590</string>
+    <string name="Farhana_Yeasmin">01550021251</string>
+    <string name="Farhana_Yeasmin1">01911217590</string>
+    <string name="Atiquer_Rahman">01550021251</string>
+    <string name="Atiquer_Rahman1">01911217590</string>
+    <string name="Shaikh_Bulbul_Ahmed">01550021251</string>
+    <string name="Shaikh_Bulbul_Ahmed1">01911217590</string>
+    <string name="Nazmul_huda">01550021251</string>
+    <string name="Nazmul_huda1">01911217590</string>
+    <string name="Farhana_Naznin">01550021252</string>
+    <string name="Farhana_Naznin1">01717405402</string>
+    <string name="M_Shirajul_Islam">01550021233</string>
+    <string name="M_Shirajul_Islam1">01913659900</string>
+    <string name="Omar_Faruk">01550021299</string>
+    <string name="Omar_Faruk1">01918012667</string>
+    <string name="Shirajul_Islam">01550021253</string>
+    <string name="Shirajul_Islam1">01537009732</string>
+
+
+</resources>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:showIn="@layout/content_home_"
+    android:background="#ededed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cpik_img"
+
+                android:src="@drawable/cpik_text_img" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_weight="8.6"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:columnCount="2"
+
+            android:alignmentMode="alignMargins"
+            android:clipToPadding="false"
+
+            android:columnOrderPreserved="false"
+            android:fadingEdge="horizontal|vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layerType="software"
+            android:orientation="horizontal"
+            android:rowCount="3"
+            >
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <RelativeLayout
+
+                android:id="@+id/studentButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/education_logo_trans" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+
+                        android:fontFamily="@font/headland_one"
+                        android:text="Student's"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                        android:textStyle="bold|italic"
+                        android:typeface="monospace" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!-- Column 2 -->
+            <RelativeLayout
+
+
+                android:id="@+id/teacherBitton"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+
+                android:clickable="true"
+                android:focusable="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_gravity="center_horizontal"
+
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/teacher" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:fontFamily="@font/headland_one"
+                        android:text="Teacher's"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <RelativeLayout
+                android:id="@+id/managment_btn"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/customerupprt" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:fontFamily="@font/headland_one"
+                        android:text="Get Help"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!-- Column 2 -->
+            <RelativeLayout
+                android:id="@+id/gardenBtton"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/parents" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:fontFamily="@font/headland_one"
+                        android:text="Gardian's"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <RelativeLayout
+                android:id="@+id/visitButton"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/visitweb_new" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:fontFamily="@font/headland_one"
+                        android:text="Visit Us"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Header"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!-- Column 2 -->
+            <RelativeLayout
+                android:id="@+id/AboutButton"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/about" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:fontFamily="@font/headland_one"
+                        android:text="About"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ai_user"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/fui_ic_googleg_color_24dp"
+            android:title="Create Teacher's Account" />
+        <item
+        android:id="@+id/nav_Sign_In_student"
+        android:icon="@drawable/ai_telephone"
+        android:title="Create Student's Account" />
+        <item
+            android:id="@+id/nav_cpik"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="CPIK notification" />
+        <item
+            android:id="@+id/nav_bteb"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="BTEB notifications" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Teachers List" />
+
+
+
+    </group>
+
+    <item android:title="Extra">
+        <menu>
+            <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Personaliz" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ai_login"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
